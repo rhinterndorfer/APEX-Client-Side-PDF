@@ -12,7 +12,7 @@
     "author": {
         "name": "Raphael Hinterndorfer",
         "email": "dev@rammelhof.at",
-		"url": "https://www.rammelhof.at",
+        "url": "https://www.rammelhof.at",
         "twitter": "rammelhofdotat",
         "donationUrl": "https://paypal.me/rhinterndorfer"
     },
@@ -28,7 +28,7 @@
                 "internalName": "AT.RAMMELHOF.CLIENT-SIDE-PDF",
                 "type": "dynamic action",
                 "demo": "https://apex.oracle.com/pls/apex/f?p=105972",
-                "previewImage": "https://github.com/rhinterndorfer/APEX-Client-Side-PDF/raw/master/screenshot.png"
+                "previewImage": "https://github.com/rhinterndorfer/APEX-Client-Side-PDF/blob/master/screenshot.png?raw=true"
             }
         }
     }
