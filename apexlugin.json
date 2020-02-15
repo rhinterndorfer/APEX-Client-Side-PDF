@@ -1,0 +1,35 @@
+{
+    "name": "APEX Client-Side PDF",
+    "version": "0.1",
+    "description": "This plug-in is used to create PDF documents on client-side (in browser) from a html document.",
+    "keywords": ["oracle", "apex", "plugin", "dynamic action", "pdf"],
+    "homepage": "https://github.com/rhinterndorfer/APEX-Client-Side-PDF",
+    "bugs": {
+        "url": "https://github.com/rhinterndorfer/APEX-Client-Side-PDF",
+        "email": "dev@rammelhof.at"
+    },
+    "license": "MIT",
+    "author": {
+        "name": "Raphael Hinterndorfer",
+        "email": "dev@rammelhof.at",
+		"url": "https://www.rammelhof.at"
+        "twitter": "rammelhofdotat",
+        "donationUrl": "https://paypal.me/rhinterndorfer"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/rhinterndorfer/APEX-Client-Side-PDF.git"
+    },
+    "oracle": {
+        "versions": ["11.2.0.2.0","18.0.0.0.0"],
+        "apex": {
+            "versions": ["19.2.0.00.18"],
+            "plugin": {
+                "internalName": "AT.RAMMELHOF.CLIENT-SIDE-PDF",
+                "type": "dynamic action",
+                "demo": "https://apex.oracle.com/pls/apex/f?p=105972",
+                "previewImage": "https://github.com/rhinterndorfer/APEX-Client-Side-PDF/raw/master/screenshot.png"
+            }
+        }
+    }
+}
