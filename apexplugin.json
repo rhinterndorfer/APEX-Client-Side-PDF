@@ -1,6 +1,6 @@
 {
     "name": "APEX Client-Side PDF",
-    "version": "0.2",
+    "version": "0.3",
     "description": "This plug-in is used to create PDF documents on client-side (in browser) from a html document. Login for demo is user: demo, password: 12345678",
     "keywords": ["oracle", "apex", "plugin", "dynamic action", "pdf"],
     "homepage": "https://github.com/rhinterndorfer/APEX-Client-Side-PDF",
@@ -23,7 +23,7 @@
     "oracle": {
         "versions": ["11.2.0.2.0","18.0.0.0.0"],
         "apex": {
-            "versions": ["19.2.0.00.18"],
+            "versions": ["19.1.0.00.15","19.2.0.00.18"],
             "plugin": {
                 "internalName": "AT.RAMMELHOF.CLIENT-SIDE-PDF",
                 "type": "dynamic action",

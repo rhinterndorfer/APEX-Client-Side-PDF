@@ -22,3 +22,8 @@ https://github.com/eKoopmans/html2pdf.js
 https://github.com/niklasvh/html2canvas  
 https://github.com/MrRio/jsPDF  
 https://github.com/stefanpenner/es6-promise  
+
+Contributors and testers:  
+https://github.com/GasparYYC  
+https://github.com/xCite1986  
+

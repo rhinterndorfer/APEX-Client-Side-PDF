@@ -13,7 +13,7 @@ whenever sqlerror exit sql.sqlcode rollback
 --------------------------------------------------------------------------------
 begin
 wwv_flow_api.import_begin (
- p_version_yyyy_mm_dd=>'2019.10.04'
+ p_version_yyyy_mm_dd=>'2019.03.31'
 ,p_release=>'19.2.0.00.18'
 ,p_default_workspace_id=>25849437339754712638
 ,p_default_application_id=>105972
@@ -144,7 +144,7 @@ wwv_flow_api.create_plugin(
 ,p_render_function=>'render_dynamic_action'
 ,p_substitute_attributes=>true
 ,p_subscribe_plugin_settings=>true
-,p_version_identifier=>'0.2'
+,p_version_identifier=>'0.3'
 ,p_about_url=>'https://github.com/rhinterndorfer/APEX-Client-Side-PDF'
 ,p_files_version=>33
 );
@@ -263,7 +263,7 @@ wwv_flow_api.create_plugin_attribute(
 ,p_attribute_scope=>'COMPONENT'
 ,p_attribute_sequence=>5
 ,p_display_sequence=>50
-,p_prompt=>'Mergin Right'
+,p_prompt=>'Margin Right'
 ,p_attribute_type=>'NUMBER'
 ,p_is_required=>true
 ,p_default_value=>'50'

@@ -28,3 +28,6 @@ Please check the POPUP blocker when using "Create PDF (window)".
 ![PAGE PDF Body](https://github.com/rhinterndorfer/APEX-Client-Side-PDF/raw/master/screenshot_page_pdf_button_download.png)
 
 ![PAGE PDF Body](https://github.com/rhinterndorfer/APEX-Client-Side-PDF/raw/master/screenshot_page_pdf_button_new_window.png)
+
+
+The html attribute data-html2canvas-ignore excludes elements from rendering (source: http://html2canvas.hertzen.com/configuration/).
