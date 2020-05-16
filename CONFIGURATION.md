@@ -2,6 +2,21 @@
 
 APEX Client-Sode PDF plugin uses html style classes to define regions that are rendered as PDF body, header or footer.
 
+Used HTML classes:
+- pdf-Body
+- pdf-Header
+- pdf-Footer
+- pdf-page-break-before
+
+Other HTML classes:
+- pdf-page-break-avoid
+- pdf-page-break-after
+
+Used PL/SQL:
+- ```htp.p('<div class="pdf-PageInfoContainer">Page #PAGE# of #TOTALPAGES#<div>');```
+
+
+
 The following sreenshot shows the page structur and inline CSS of the demo page on https://apex.oracle.com/pls/apex/f?p=105972 (Login is: demo / 12345678).  
 
 ![PAGE PDF Body](https://github.com/rhinterndorfer/APEX-Client-Side-PDF/raw/master/screenshot_page_structur.png)
@@ -31,3 +46,4 @@ Please check the POPUP blocker when using "Create PDF (window)".
 
 
 The html attribute data-html2canvas-ignore excludes elements from rendering (source: http://html2canvas.hertzen.com/configuration/).
+
