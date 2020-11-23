@@ -11,6 +11,9 @@ Login is: demo / 12345678
 Please refer to CONFIGURATION.md for plugin configuration:  
 https://github.com/rhinterndorfer/APEX-Client-Side-PDF/blob/master/CONFIGURATION.md
 
+Quick installation and usage instruction video:  
+https://youtu.be/rDVFqqcUdiI
+
 
 If you like my stuff, donate me a coffee  
 [![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://paypal.me/rhinterndorfer)
