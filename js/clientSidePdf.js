@@ -100,6 +100,11 @@ var clientSidePdf = {
 			setTimeout(function() {
 				if(state.options.outputFormat == "window") {
 					window.open(state.pdfObject.output('bloburl',{ filename: state.options.filename }), '_blank');
+				} else if (state.options.outputFormat == "event") {
+					var pdf$ = $(state.options.bodySelector);
+					var event = $.Event( "openPdf" );
+					event.pdfObject = state.pdfObject;
+					pdf$.trigger( event );
 				} else if (state.options.outputFormat == "save") {
 					state.pdfObject.save(state.options.filename);
 				} else {
